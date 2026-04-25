@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Замовлення піци"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Введіть ім'я клієнта:" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Наприклад, Андрій"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Оберіть тип піци:"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cbMargarita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Маргарита" />
+
+        <CheckBox
+            android:id="@+id/cbPepperoni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пепероні" />
+
+        <CheckBox
+            android:id="@+id/cbFourCheese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Чотири сири"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Оберіть розмір:"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cbSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Мала" />
+
+        <CheckBox
+            android:id="@+id/cbMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Середня" />
+
+        <CheckBox
+            android:id="@+id/cbLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Велика"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Додаткові інгредієнти:"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cbMushrooms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Гриби" />
+
+        <CheckBox
+            android:id="@+id/cbOlives"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Оливки" />
+
+        <CheckBox
+            android:id="@+id/cbExtraCheese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Додатковий сир" />
+
+        <CheckBox
+            android:id="@+id/cbBacon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Бекон"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OK" />
+
+        <Button
+            android:id="@+id/btnOpen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Відкрити"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</ScrollView>
